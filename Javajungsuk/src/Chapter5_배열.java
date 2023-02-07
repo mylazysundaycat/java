@@ -108,7 +108,7 @@ public class Chapter5_¹è¿­ {
 					scoreAverage = scoreSum/score[i].length;
 					System.out.printf("%-5f",scoreAverage);
 					scoreSum=0;
-
+ 
 				}
 			}
 		}
