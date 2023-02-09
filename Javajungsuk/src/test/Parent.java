@@ -5,13 +5,25 @@ public class Parent {
 	String test = "Super";
 }
 
-class Child extends Parent {
+interface MyInterface {
+	default void method1() {
+		System.out.println("method1 in MyInterface");
+	}
+	void method2();
+}
+
+class Child extends Parent implements MyInterface {
+	
 	String x = "자식의 인자";
 	String test = "This";
 	
 	void method() {
 		System.out.println("super:"+super.test);
 		System.out.println("this:"+this.test);
+	}
+	
+	public void method2() {
+		System.out.println("MyInterface에 있는 method2를 Child에서 재구성");
 	}
 	
 }

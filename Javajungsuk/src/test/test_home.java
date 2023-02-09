@@ -47,6 +47,7 @@ public class test_home {
 		System.out.println(t.getHour());
 		*/
 		
+		/*
 		Tv t1 = new Tv();
 		Smartphone s1 = new Smartphone();
 		Headphone h1 = new Headphone();
@@ -55,8 +56,31 @@ public class test_home {
 		b1.Buy(t1);
 		b1.Buy(s1);
 		b1.Buy(h1);
-		
 		b1.getCart();
+		*/
+		
+		/*
+		Anivia a = new Anivia();
+		a.move(40, 200);
+		
+		Teemo t = new Teemo();
+		t.move(22, 77);
+		t.BlindingDart();
+		*/
+		
+		Champion[] c = new Champion[3];
+		c[0] = new Anivia();
+		c[1] = new Ezreal();
+		c[2] = new Teemo();
+		
+		for(int i=0; i<c.length; i++) {
+			c[i].move(270, 156);
+		}
+		
+		Child child = new Child();
+		child.method1();
+		child.method2();
+		
 	}
 
 
