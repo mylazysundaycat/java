@@ -1,18 +1,17 @@
 package test;
 
 public class time {
-	int hour;
-	int minute;
-	float second;
+	private int hour;
+	private int minute;
+	private float second;
 	
+	public int getHour() {return this.hour;}
 	public void setHour(int h) {
-		if (0<h || h>23) {
-			hour = h;
+		if (0<h && h<23) {
+			this.hour = h;
 		}
+		return;
 	}
 	
-	public void showTime() {
-		System.out.printf("%d:%d:%f",hour,minute,second);
-	}
 }
 

@@ -19,6 +19,7 @@ public class test_home {
 		car c2 = new car();
 		*/
 		
+		/*
 		student s = new student("ȫ�浿",1,1,100,60,76);
 		String str = s.info();
 		
@@ -38,7 +39,24 @@ public class test_home {
 		System.out.println(c.x);
 		
 		c.method();
-
+		*/
+		
+		/*
+		time t = new time();
+		t.setHour(24);
+		System.out.println(t.getHour());
+		*/
+		
+		Tv t1 = new Tv();
+		Smartphone s1 = new Smartphone();
+		Headphone h1 = new Headphone();
+		
+		Buyer b1 = new Buyer();
+		b1.Buy(t1);
+		b1.Buy(s1);
+		b1.Buy(h1);
+		
+		b1.getCart();
 	}
 
 

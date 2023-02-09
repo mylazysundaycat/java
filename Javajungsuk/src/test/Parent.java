@@ -13,4 +13,9 @@ class Child extends Parent {
 		System.out.println("super:"+super.test);
 		System.out.println("this:"+this.test);
 	}
+	
+}
+
+final class FinalParent { // 조상이 될 수 없는 클래스
+	final int MAX_SIZE = 10; // 값을 변경할 수 없는 멤버변수(상수)
 }
