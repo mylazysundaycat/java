@@ -1,5 +1,6 @@
 package Chapter11_컬렉션프레임워크;
 
+import java.util.EmptyStackException;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -13,7 +14,7 @@ public class Ch11_3_Stack과Queue2 {
 		
 		Stack st = new Stack();
 		String expression = args[0];
-		
 		System.out.println("expression:"+expression);
+
 	}
 }
