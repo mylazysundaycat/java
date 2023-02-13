@@ -1,6 +1,8 @@
+package Chapter06_객체지향프로그래밍1;
 
 public class Chapter6_객제치향프로그래밍1 {
 	public static void main(String[] args) {
+		
 		/*
 		 1. 인스턴스 변수
 		 클래스 영역에 선언되며, 인스턴스를 생성할 때 만들어진다.

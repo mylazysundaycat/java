@@ -1,3 +1,4 @@
+package Chapter01;
 import java.util.Scanner;
 
 public class Chapter2_º¯¼ö {

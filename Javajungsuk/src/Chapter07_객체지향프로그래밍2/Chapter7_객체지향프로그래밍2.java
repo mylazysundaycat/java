@@ -1,3 +1,4 @@
+package Chapter07_객체지향프로그래밍2;
 
 public class Chapter7_객체지향프로그래밍2 {
 	public static void main(String[] args) {

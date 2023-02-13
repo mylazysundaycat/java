@@ -1,4 +1,4 @@
-package Chapter7_EX;
+package Chapter07_객체지향프로그래밍2;
 
 public class EX7_1 {
 	public static void main(String[] args) {
