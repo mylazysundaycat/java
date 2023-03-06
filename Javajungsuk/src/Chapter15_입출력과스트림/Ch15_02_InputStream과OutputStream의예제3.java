@@ -17,6 +17,7 @@ public class Ch15_02_InputStream과OutputStream의예제3 {
 		try {
 			while(input.available()>0) { // available() : 읽어올 수 있는 데이터의 크기를 반환한다
 				int len = input.read(temp);
+				System.out.println("len:"+len);
 				output.write(temp,0,len);
 				
 				outSrc = output.toByteArray();
